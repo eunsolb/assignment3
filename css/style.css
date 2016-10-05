@@ -1,0 +1,52 @@
+
+.navbar-custom{
+  background-color: white;
+  border-color:#093D79;
+}
+
+.container-fluid{
+  width: 75%;
+  float:left;
+}
+
+.stroked{
+  text-decoration: line-through;
+}
+
+.glyphicon-plus-sign {
+  color:#093D79;
+}
+
+.btn-default {
+  background-color: white;
+  border-color: #093D79;
+  color: #093D79;
+}
+
+.btn-default:hover {
+  background-color:#FBFBFB;
+  border-color: #093D79;
+  color:#093D79;
+}
+
+.btn-custom {
+  color:#093D79;
+  border-color:#093D79;
+  background-color: white;
+
+  padding: 3px 10px;
+
+
+
+}
+
+.btn-custom:hover{
+  background-color:#FBFBFB;
+  border-color: #093D79;
+  color:#093D79;
+}
+
+.list-group {
+  padding: 10px;
+
+}
