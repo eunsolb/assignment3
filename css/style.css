@@ -24,29 +24,35 @@
 }
 
 .btn-default:hover {
-  background-color:#FBFBFB;
+  background-color:#093D79;
   border-color: #093D79;
-  color:#093D79;
+  color:white;
+}
+
+.glyphicon-plus-sign:hover{
+  color:white;
 }
 
 .btn-custom {
   color:#093D79;
-  border-color:#093D79;
-  background-color: white;
-
+  //border-color:#093D79;
+  background-color: #FBFBFB;
   padding: 3px 10px;
-
-
-
+  //float:right;
 }
 
 .btn-custom:hover{
-  background-color:#FBFBFB;
-  border-color: #093D79;
-  color:#093D79;
+  //background-color:#093D79;
+  //border-color: #093D79;
+  color:#87A0BE;
 }
 
 .list-group {
   padding: 10px;
+}
 
+.list-group-item {
+  background-color: #FBFBFB;
+  border-color: white;
+  border-width:thick;
 }

@@ -11,6 +11,12 @@ $(document).ready(function() {
   $("#buttonAdd").click(addItem);
   //buttonAdd.addEventListener ('click', addItem);
 
+  //When buttonAdd is hovered,  glyphicon-plus-sign changes to white
+  $(".btn-default").hover(function(){
+      $(".glyphicon-plus-sign").css("color", "white");
+      }, function(){
+      $(".glyphicon-plus-sign").css("color","#093D79");
+  });
 
 
 });
@@ -35,10 +41,14 @@ function addItem() {
 
   //Create delete button
 
+
   var deleteButton = document.createElement("button");
   deleteButton.setAttribute("id", "btn"+taskcount);
   deleteButton.setAttribute("class", "btn btn-custom");
-  deleteButton.appendChild(document.createTextNode("Delete"));
+
+  var deleteIcon = document.createElement("span")
+  deleteIcon.setAttribute("class","glyphicon glyphicon-trash");
+  deleteButton.appendChild(deleteIcon);
 
 
 //delete tasks when deletebutton is pressed
@@ -53,5 +63,4 @@ function addItem() {
   taskcount ++;
 
   $("#tasklist").append(item);
-
 }
